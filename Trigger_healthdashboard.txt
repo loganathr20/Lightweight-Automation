@@ -1,5 +1,2 @@
-
-Trigger=false
-
-Email=loganathr@gmail.com
-
+Trigger=true
+Email=test@example.com
