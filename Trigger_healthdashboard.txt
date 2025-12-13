@@ -1,2 +1,2 @@
 Trigger=true
-Email=test@example.com
+Email=loganathr@gmail.com
