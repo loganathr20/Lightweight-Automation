@@ -1,6 +1,6 @@
 Trigger=true
-BRANCH=develop
-META=SIT Properties
-Email=loganathr@gmail.com
+BRANCH="develop"
+META="SIT Properties"
+Email="loganathr@gmail.com"
 
 
