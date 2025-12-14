@@ -1,7 +1,7 @@
-Trigger=false
+Trigger=true
 BRANCH="develop"
 META="SIT Properties"
 Email="loganathr@gmail.com, l_raja@hotmail.com, loganathr20@gmail.com"
 
 # Note: If you are not sure about other properties, Please set the Trigger only to True and update your Email  to build develop branch with SIT Properties and email build logs.
-# Give multiple emails comma seperated. 
+# Give multiple emails comma seperated. without spaces in between
