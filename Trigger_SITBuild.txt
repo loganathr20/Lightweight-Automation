@@ -1,4 +1,4 @@
-Trigger=false
+Trigger=True
 BRANCH="develop"
 META="SIT Properties"
 Email="loganathr20@gmail.com"
