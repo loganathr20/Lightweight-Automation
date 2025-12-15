@@ -1,7 +1,7 @@
-Trigger=false
+Trigger=true
 BRANCH="develop"
 META="SIT Properties"
-Email="loganathr@gmail.com"
+Email="loganathr20@gmail.com"
 Application="Tomcat-Webdeploy-pipeline"
 
 # Note: If you are not sure about other properties, Please set the Trigger only to True and update your Email  to build develop branch with SIT Properties and email build logs.
