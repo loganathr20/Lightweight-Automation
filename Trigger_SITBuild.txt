@@ -1,5 +1,5 @@
 Trigger=false
-BRANCH="develop"
+BRANCH="JenkinsTestBranch"
 META="SIT Properties"
 Email="loganathr21@gmail.com"
 Application="Tomcat-Webdeploy-pipeline"
