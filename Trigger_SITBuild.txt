@@ -1,8 +1,12 @@
-Trigger=false
-BRANCH="JenkinsTestBranch"
-META="SIT Properties"
+Trigger=true
 Email="loganathr21@gmail.com"
-Application="Tomcat-Webdeploy-pipeline"
+
+#Branch name to Build. Defaults to develop branch. Case Sensitive. Name as per Github Repo branch name.
+BRANCH="JenkinsTestBranch"
+
+# Dont Change
+META="SIT Properties"
+JobName="SIT-Build-Tomcat-Webdeploy-pipeline"
 
 # --------- DONT DELETE ------
 # PLEASE use lowercase as the script is case sensitive.
