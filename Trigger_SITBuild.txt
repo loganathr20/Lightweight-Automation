@@ -1,4 +1,4 @@
-Trigger=false
+Trigger=true
 BRANCH="JenkinsTestBranch"
 META="SIT Properties"
 Email="loganathr21@gmail.com"
