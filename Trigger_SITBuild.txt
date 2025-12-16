@@ -1,4 +1,4 @@
-Trigger=false
+Trigger=true
 Email="loganathr21@gmail.com"
 
 #Branch name to Build. Defaults to develop branch. Case Sensitive. Name as per Github Repo branch name.
@@ -6,6 +6,7 @@ BRANCH="JenkinsTestBranch"
 
 # Dont Change
 META="SIT Properties"
+env="SIT.properties"
 JobName="SIT-Build-Tomcat-Webdeploy-pipeline"
 
 # --------- DONT DELETE ------
