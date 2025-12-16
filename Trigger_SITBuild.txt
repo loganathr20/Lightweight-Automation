@@ -1,8 +1,10 @@
-Trigger=false
+Trigger=true
 BRANCH="develop"
 META="SIT Properties"
-Email="loganathr20@gmail.com"
+Email="loganathr21@gmail.com"
 Application="Tomcat-Webdeploy-pipeline"
 
+# --------- DONT DELETE ------
+# PLEASE use lowercase as the script is case sensitive.
 # Note: If you are not sure about other properties, Please set the Trigger only to True and update your Email  to build develop branch with SIT Properties and email build logs.
 # Give multiple emails comma seperated and without spaces in between.
