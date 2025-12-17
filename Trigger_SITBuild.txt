@@ -1,15 +1,20 @@
-Trigger=false
+
+Trigger=true
 Email="loganathr@gmail.com"
 
-#Branch name to Build. Defaults to develop branch. Case Sensitive. Name as per Github Repo branch name.
+# Branch name to Build. Defaults to develop branch. Case Sensitive. Name as per Github Repo branch name.
+# BRANCH="develop"
 BRANCH="JenkinsTestBranch"
 
-# Dont Change
+# Dont Change unless you are sure
 META="SIT Properties"
 env="SIT.properties"
 JobName="SIT-Build-Tomcat-Webdeploy-pipeline"
 
-# --------- DONT DELETE ------
+
+
+# --------- READ ME ---------------
+# --------- DONT DELETE -----------
 # PLEASE use lowercase as the script is case sensitive.
-# Note: If you are not sure about other properties, Please set the Trigger only to True and update your Email  to build develop branch with SIT Properties and email build logs.
-# Give multiple emails comma seperated and without spaces in between.
+# If you are not sure about other properties, Please set the Trigger only to True and update your Email  to build develop branch with SIT Properties and email build logs.
+# Give multiple emails comma seperated and without spaces in between. Example : Email="email1@example.com,email2@exmple.com"
