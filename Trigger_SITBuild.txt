@@ -1,5 +1,5 @@
 
-Trigger=false
+Trigger=true
 Email="loganathr@gmail.com"
 
 # Branch name to Build. Defaults to develop branch. Case Sensitive. Name as per Github Repo branch name.
