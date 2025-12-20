@@ -1,2 +1,2 @@
-Trigger=running
+Trigger=false
 Email=loganathr@gmail.com
