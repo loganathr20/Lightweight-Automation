@@ -1,0 +1,46 @@
+pipeline {
+    agent any
+
+    options {
+        timestamps()
+        disableConcurrentBuilds()
+    }
+
+    stages {
+
+        stage('Pre-checks') {
+            steps {
+                sh '''
+                    echo "Running as user:"
+                    whoami
+                    echo "Checking script exists..."
+                    ls -l /home/lraja/Github/Mint19Setup/Util/reload_healthcheck_dashboard.sh
+                '''
+            }
+        }
+
+        stage('Run Healthcheck & Timers') {
+            steps {
+                sh '''
+                    set -e
+                    echo "Executing reload_healthcheck_dashboard.sh"
+                    sudo /home/lraja/Github/Mint19Setup/Util/reload_healthcheck_dashboard.sh
+                '''
+            }
+        }
+    }
+
+    post {
+        success {
+            echo "Healthcheck dashboard and timers executed successfully."
+        }
+        failure {
+            echo "FAILED: Healthcheck execution failed. Check console logs."
+        }
+        always {
+            echo "Job finished."
+        }
+    }
+}
+
+
