@@ -1,4 +1,7 @@
-export TERM=dumb
+environment {
+    TERM = dumb
+}
+
 
 pipeline {
     agent any
