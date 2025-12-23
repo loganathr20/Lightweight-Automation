@@ -24,7 +24,7 @@ pipeline {
                 sh '''
                     set -e
                     echo "Executing reload_healthcheck_dashboard.sh"
-                    sudo /home/lraja/Github/Mint19Setup/Util/reload_healthcheck_dashboard.sh
+                    /home/lraja/Github/Mint19Setup/Util/reload_healthcheck_dashboard.sh
                 '''
             }
         }
